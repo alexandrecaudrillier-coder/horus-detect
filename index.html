@@ -1,93 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horus Detect</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
-        
-        header p {
-            font-size: 1.2em;
-            opacity: 0.9;
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-        
-        section {
-            margin-bottom: 40px;
-        }
-        
-        section h2 {
-            margin-bottom: 20px;
-            color: #667eea;
-        }
-        
-        footer {
-            background: #f4f4f4;
-            padding: 20px;
-            text-align: center;
-            color: #666;
-            margin-top: 40px;
-        }
-        
-        footer a {
-            color: #667eea;
-            text-decoration: none;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horus Detect</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0e1116;
+      color: #e8edf7;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 48px 24px;
+    }
+    h1 {
+      font-size: 42px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #ffffff;
+    }
+    p {
+      color: #b8c1d1;
+    }
+    a {
+      color: #4f7cff;
+      text-decoration: none;
+    }
+    .card {
+      background: #171b22;
+      border-radius: 16px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+    .small {
+      font-size: 14px;
+      color: #8d97a8;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>🔍 Horus Detect</h1>
-        <p>Advanced Detection System</p>
-    </header>
-    
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>Welcome to Horus Detect. This is your detection platform.</p>
-        </section>
-        
-        <section>
-            <h2>Features</h2>
-            <p>Explore our advanced detection capabilities.</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 Horus Detect. All rights reserved.</p>
-        <p><a href="privacy-policy.html">Privacy Policy</a></p>
-    </footer>
+  <main class="container">
+    <h1>Horus Detect</h1>
+    <p>Passive acoustic drone detection technologies.</p>
+
+    <div class="card">
+      <h2>Horus Detect - Demo</h2>
+      <p>
+        Horus Detect - Demo is a demonstration Android application for local acoustic drone detection.
+        It uses the phone microphone to analyze ambient sound in real time and display an indicative
+        probability level of possible drone presence.
+      </p>
+      <p>
+        The demo version works only while the application is open in the foreground.
+        It does not record audio, does not store audio, and does not transmit microphone audio to a server.
+      </p>
+      <p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </p>
+    </div>
+
+    <p class="small">
+      Horus Detect - Demo is a technical demonstration. It is not a certified professional security,
+      surveillance, or alerting system.
+    </p>
+  </main>
 </body>
 </html>
